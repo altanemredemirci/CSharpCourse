@@ -83,24 +83,24 @@
 
             #endregion
 
-            DateTime date = new DateTime(2020, 12, 31);
-            DateTime dateTime = new DateTime(2020, 12, 31,13,19,54);
+            //DateTime date = new DateTime(2020, 12, 31);
+            //DateTime dateTime = new DateTime(2020, 12, 31,13,19,54);
 
-            DateTime dateTimeNow = DateTime.Now;
+            //DateTime dateTimeNow = DateTime.Now;
 
-            int year = dateTimeNow.Year;
-            int year2 = DateTime.Now.Year;
+            //int year = dateTimeNow.Year;
+            //int year2 = DateTime.Now.Year;
 
-            Console.WriteLine(dateTimeNow);
-            Console.WriteLine(dateTimeNow.Year);
-            Console.WriteLine(dateTimeNow.Month);
-            Console.WriteLine(dateTimeNow.Day);
-            Console.WriteLine(dateTimeNow.Hour);
-            Console.WriteLine(dateTimeNow.Minute);
-            Console.WriteLine(dateTimeNow.Second);
-            Console.WriteLine(dateTimeNow.Date);
-            Console.WriteLine(dateTimeNow.DayOfYear);
-            Console.WriteLine(dateTimeNow.DayOfWeek);
+            //Console.WriteLine(dateTimeNow);
+            //Console.WriteLine(dateTimeNow.Year);
+            //Console.WriteLine(dateTimeNow.Month);
+            //Console.WriteLine(dateTimeNow.Day);
+            //Console.WriteLine(dateTimeNow.Hour);
+            //Console.WriteLine(dateTimeNow.Minute);
+            //Console.WriteLine(dateTimeNow.Second);
+            //Console.WriteLine(dateTimeNow.Date);
+            //Console.WriteLine(dateTimeNow.DayOfYear);
+            //Console.WriteLine(dateTimeNow.DayOfWeek);
 
             #endregion
 

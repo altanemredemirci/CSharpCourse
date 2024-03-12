@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Operatorler", "03_Operat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_TurDonusumleri", "04_TurDonusumleri\04_TurDonusumleri.csproj", "{0A00B5AB-8246-4EBB-80C6-80467AE57D3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_If_ElseIf_Else_1", "05_If_ElseIf_Else_1\05_If_ElseIf_Else_1.csproj", "{DB44FADA-ABBA-4540-B498-BDAD9125F30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Switch_Case", "06_Switch_Case\06_Switch_Case.csproj", "{5C772672-F203-49C4-AB69-815669260905}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0A00B5AB-8246-4EBB-80C6-80467AE57D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A00B5AB-8246-4EBB-80C6-80467AE57D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A00B5AB-8246-4EBB-80C6-80467AE57D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB44FADA-ABBA-4540-B498-BDAD9125F30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB44FADA-ABBA-4540-B498-BDAD9125F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB44FADA-ABBA-4540-B498-BDAD9125F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB44FADA-ABBA-4540-B498-BDAD9125F30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C772672-F203-49C4-AB69-815669260905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C772672-F203-49C4-AB69-815669260905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C772672-F203-49C4-AB69-815669260905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C772672-F203-49C4-AB69-815669260905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
