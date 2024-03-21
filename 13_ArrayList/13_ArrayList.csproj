@@ -3,9 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_10_Arrays</RootNamespace>
+    <RootNamespace>_13_ArrayList</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\14_SortedList_QueueList\14_SortedList_QueueList.csproj" />
+  </ItemGroup>
 
 </Project>

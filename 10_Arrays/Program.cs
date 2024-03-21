@@ -464,6 +464,177 @@
             #endregion
 
             #endregion
+
+
+            #region Kullanıcıdan 4 ürün fiyatı isteyin fiyatı 1200 tl yi geçen ürünlere %32 indirim yapınız ve 
+            //        her biri ürünün yeni fiyatını gösteriniz
+
+            //double[] prices = new double[4];
+
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    Console.WriteLine("Ürün Fiyat:");
+            //    double fiyat = Convert.ToDouble(Console.ReadLine());
+
+            //    if (fiyat > 1200)
+            //        fiyat *= 0.68;
+
+            //    prices[i] = fiyat;
+            //}
+
+            //foreach (var item in prices)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
+            #region e - mail hesabı oluşturma
+
+            //başlangıç:
+            //    Console.Write("Oluştumk istediğiniz mail adresini giriniz:");
+            //    string email = Console.ReadLine(); //altanemre@gmail.com
+
+            //    #region "@" kontrolü
+            //    bool varmi = false;
+            //    int sayac = 0;
+            //    for (int i = 0; i < email.Length; i++)
+            //    {
+            //        if (email.Substring(i, 1) == "@")
+            //        {
+            //            varmi = true;
+            //            sayac++;
+            //        }
+            //    }
+            //    if (varmi == false || sayac != 1)
+            //    {
+            //        Console.WriteLine("emailde bir tane'@' olmalıdır!");
+            //        goto bitir;
+            //    }
+            //    #endregion
+
+            //    #region "." kontrolü
+            //    bool varmi2 = false;
+            //    for (int i = 0; i < email.Length; i++)
+            //    {
+            //        if (email.Substring(i, 1) == ".")
+            //        {
+            //            varmi2 = true;
+            //        }
+            //    }
+            //    if (varmi2 == false)
+            //    {
+            //        Console.WriteLine("emailde bir tane'.' olmalıdır!");
+            //        goto bitir;
+            //    }
+            //    #endregion
+
+            //    string[] dizi = email.Split('@');  // {"altanemre","gmail.com"}
+
+            //    #region karakter kontrolü
+            //    if (dizi[0] == "")
+            //    {
+            //        Console.WriteLine("'@'den önce en az bir karakter olmalidir");
+            //        goto bitir;
+            //    }
+            //    #endregion
+
+            //    #region @ sonrası kontrol
+            //    bool varmi3 = false;
+            //    for (int i = 0; i < dizi[1].Length; i++)
+            //    {
+            //        if (dizi[1].Substring(i, 1) == ".")
+            //        {
+            //            varmi3 = true;
+            //        }
+            //    }
+            //    if (varmi3 == false)
+            //    {
+            //        Console.WriteLine("emailde '@' den sonra bir tane'.' olmalıdır!");
+            //        goto bitir;
+            //    }
+            //    #endregion
+
+            //    string[] dizi2 = dizi[1].Split('.'); // {"gmail","com"}
+
+            //    #region @ sonrası '.' kontrolü
+            //    bool varmi4 = false;
+            //    for (int i = 0; i < dizi2[dizi2.Length - 1].Length; i++)
+            //    {
+            //        if (dizi2[dizi2.Length - 1].Substring(i, 1) != "")
+            //        {
+            //            varmi4 = true;
+            //        }
+            //    }
+            //    if (varmi4 == false)
+            //    {
+            //        Console.WriteLine("emailde '@' den sonraki kısımda '.' dan sonra en az bir tane karakter olmalıdır!");
+            //        goto bitir;
+            //    }
+
+            //    #endregion
+
+            //    #region ' ' kontrolü
+            //    bool varmi5 = true;
+            //    char[] dizi3 = email.ToCharArray(); //{'a','l',....}
+
+            //    for (int i = 0; i < dizi3.Length; i++)
+            //    {
+            //        if (dizi3[i] == ' ')
+            //        {
+            //            varmi5 = false;
+            //        }
+            //    }
+            //    if (varmi5 == false)
+            //    {
+            //        Console.WriteLine("emailde ' ' karakteri kullanılamaz");
+            //    }
+            //    else
+            //    {
+            //        email = string.Concat(dizi3);
+            //        Console.WriteLine("e-mail hesabınız başarıyla oluşturuldu");
+            //        goto bitir;
+            //    }
+            //#endregion
+
+            //#region yeniden deneme
+            //bitir:
+            //    Console.Write("yeniden denemek ister misiniz?(evet=1/hayır=2):");
+            //    int cevap = int.Parse(Console.ReadLine());
+            //    switch (cevap)
+            //    {
+            //        case 1:
+            //            goto başlangıç;
+            //        case 2:
+            //            break;
+            //    }
+            //    #endregion
+
+            #endregion
+
+
+            #region  sesli harf kontrolü
+
+            Console.Write("bir kelime girin:"); //altanemre
+            string kelime = Console.ReadLine();
+            int sayac = 0;
+            string karakter = "aeıioöuü";
+            char[] kelime_dizi = kelime.ToCharArray();
+            char[] karakter_dizi = karakter.ToCharArray();
+            for (int i = 0; i < kelime_dizi.Length; i++)
+            {
+                for (int j = 0; j < karakter_dizi.Length; j++)
+                {
+                    if (kelime_dizi[i] == karakter_dizi[j])
+                        sayac++;
+                }
+            }
+            Console.WriteLine(sayac);
+
+            #endregion
+
+
         }
 
 
