@@ -9,6 +9,8 @@
             // className:BaseClassName şeklinde tanımlanır.
             // miras alınan sınıfı türeyen sınıf içinde kullanmak istersek BASE kelimesi kullanılır.
 
+            //*** Her class tek bir classtan miras alabilir.
+
             Kopek k = new Kopek();
             k.KuyrukUzunlugu = 10;
             k.Agirlik = 100;
